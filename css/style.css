@@ -1,5 +1,59 @@
+/* GENERAL RULES */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  max-width: 960px;
+  border: 1px solid #111;
+  margin: 50px auto;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.sottomenu {
+  list-style: none;
+}
+
+.barra-navigazione {
+  display: flex;
+  align-items: center;
+}
+
+.lista-nav-1,
+.lista-nav-2 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+/* LAYOUT */
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.app .lista-nav-1 img {
+  width: 20%;
+}
+
+
+.lista-nav-1 {
+  border: 3px solid red;
+}
+.lista-nav-2 {
+  border: 3px solid blue;
+}
+
+.sottomenu {
+  display: none;
 }
